@@ -17,6 +17,8 @@ public class _17_Dictionary {
 
     private void calculateOrder(String word,String currentWord,int depth){
 
+        System.out.println("Current Word : " + currentWord);
+
         //하나씩 늘리다가 목표값에 도달하면 정지
         if(currentWord.equals(word)){ return ;} // 함수 종료
 

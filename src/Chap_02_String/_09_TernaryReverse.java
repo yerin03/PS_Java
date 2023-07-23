@@ -15,7 +15,7 @@ public class _09_TernaryReverse {
         String temp = new StringBuilder(ternary).reverse().toString();
         //System.out.println("뒤집기 : " + temp);
 
-        //다시 10진수로 바꾸기
+        //다시 10진수(정수)로 바꾸기
         int result = Integer.parseInt(temp,3);
         //System.out.println("정답 : " + result);
         return result;

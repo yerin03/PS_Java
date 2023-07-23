@@ -8,9 +8,6 @@ public class _08_Compress {
 
         int answer = 0;
 
-        //압축하는 기능을 만들어
-
-
 
 
         return answer;
